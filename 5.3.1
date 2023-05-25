@@ -1,0 +1,24 @@
+#include<conio.h>
+#include<stdio.h>
+void main ()
+{
+int a;
+int b;
+int c;
+
+clrscr();
+
+printf("Enter The First Number : ");
+scanf("%d",&a);
+printf("Enter The Second Nmber : ");
+scanf("%d",&b);
+printf("Enter The Third Number : ");
+scanf("%d",&c);
+
+(a<b)
+? ((a<c)? printf("The minimum number is : %d",a) : printf("The minimum number is : %d",c))
+: ((b<c)? printf("The minimum number is : %d",b) : printf("The minimum number is : %d",c));
+
+getch();
+
+}
